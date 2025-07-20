@@ -58,7 +58,7 @@ ul li a{
    }
    .journey_section p{
     font-weight: 600;
-    width: 505px;
+    max-width: 505px;
     margin: 0;
    }
    .journey_section button{
@@ -73,13 +73,14 @@ ul li a{
    }
    .main_camara img{
     margin-top: 35px;
+    width: 100%;
    }
    .sopnsar_items{
-    width: 1110px;
+   max-width: 1110px;
    }
    .sopnsar_items div{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+   
     margin-top: 69px;
     gap: 47px;
     margin-left: 136px;
@@ -138,6 +139,102 @@ ul li a{
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     max-width: 329px;
    
+   }
+   /* featured_products section  */
+   .featured_section{
+    max-width: 1110px;
+    margin: 75px auto;
+
+   }
+   .featured_section{
+    display: flex;
+    justify-content: space-between;
+   }
+   .featured_products{
+    max-width: 610px;
+   }
+   
+   .featured_products h3{
+        font-size: 2.30rem;
+        font-weight: 700;
+   }
+   .featured_products p{
+     color: rgb(108, 108, 108);
+    font-weight: 700;
+   }
+   .featured_products button{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px;
+   }
+   /* footer section style  */
+    footer{
+       background-color: rgb(44, 43, 43);
+       height: 300px;
+       width: 100%;
+    } 
+    .footer_div{
+       color: white;
+        text-align: center;
+       padding-top: 80px;
+       font-weight: 700;
+        
+    }
+    .footer_div h5{
+        font-size: 1.5rem;
+        margin: 0;
+       
+    }
+    .footer_div p{
+        font-size: .85rem;
+        color: rgb(217, 219, 225);
+    
+    }
+    .footer_div span{
+        display: block;
+        font-size: .85rem;
+
+    }
+    .footer-div a {
+    color: white;
+    margin-left: 50px;
+    }
+    
+
+   @media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+       padding-left: 0;
+    }
+    .infiuencer_section{
+        flex-direction: column-reverse;
+    }
+    .sopnsar_items div{
+      flex-direction: column;
+        margin-left: 5px;
+        gap: 5px;
+        
+       
+    }
+   .sopnsar_items img{
+    gap: 5px;
+    width: 200px;
+    
+   }
+    .popular_item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured_section{
+        flex-direction: column-reverse;
+        
+    }
+    .featured_section img{
+        margin-top: 30px;
+    }
+    
    }
    
 
