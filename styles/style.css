@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+   background: rgb(238, 235, 235);
 
 }
 
@@ -17,7 +18,8 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     color: rgb(58, 58, 58);
-    background-color: white;
+    background-color: rgb(247, 241, 241);
+    padding: 10px;
 }
 nav h3{
     font-size: 1.5rem;
@@ -86,4 +88,56 @@ ul li a{
    .sopnsar_items img{
     gap: 21px;
    }
+    /* <!-- popular_collection section  --> */
+
+   .popular_collection{
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+   
+    
+   }
+   .popular_collection h4{
+    font-size: 1.75rem;
+    text-align: center;
+   }
+   .popular_item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    
+   
+   
+   }
+   .popular_item img{
+    max-width: 300px;
+    padding: 15px;
+   }
+   .popular_item span{
+    display: block;
+    margin: 5px 0;
+    margin-left: 15px;
+   }
+   .popular_item h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+     margin-left: 15px;
+   }
+   .popular_item p{
+    color: rgb(120, 120, 133);
+    font-size: .87rem;
+    max-width: 196px;
+     margin-left: 15px;
+   }
+   .item{
+   margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    max-width: 329px;
+   
+   }
+   
 
