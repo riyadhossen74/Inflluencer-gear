@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+
 }
 
 /* navber style  */
@@ -12,3 +13,77 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgb(58, 58, 58);
+    background-color: white;
+}
+nav h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+ul{
+    display: flex;
+    gap: 34px;
+    
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+     color: rgb(58, 58, 58);
+     text-decoration: none;
+
+    } 
+    li i{
+        position: relative;
+        top: 2px;
+    } 
+    .infiuencer_section{
+        display: flex;
+        justify-content: space-between;
+        gap: 133px;
+        align-items: center;
+        padding-top: 80px;
+    } 
+   .journey_section h2{
+        font-size: 3.25rem;
+        font-weight: 700;
+        margin: 0;
+   }
+   .journey_section p{
+    font-weight: 600;
+    width: 505px;
+    margin: 0;
+   }
+   .journey_section button{
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 50px;
+    border-radius: 41px;
+    margin-top: 25px;
+   }
+   .main_camara{
+    background: url(../images/Circle\ design.svg);
+   }
+   .main_camara img{
+    margin-top: 35px;
+   }
+   .sopnsar_items{
+    width: 1110px;
+   }
+   .sopnsar_items div{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 69px;
+    gap: 47px;
+    margin-left: 136px;
+    
+   }
+   .sopnsar_items img{
+    gap: 21px;
+   }
+
